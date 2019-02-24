@@ -11,7 +11,7 @@ class Header extends Component{
         return(
             <header>
                 <div class="logonav">
-                    <img src="../images/famowhite.png" alt="famowhite"></img>
+                    <img src="" alt="famowhite"></img>
                     <nav id="dropdown" class="nav1">
                         <a href="Famo.us University">Famo.us University</a>
                         <a href="Demos">Demos</a>
