@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import bullhorn from '../images/bullhorn.svg';
 
 class Content extends Component{
     render(){
@@ -25,7 +25,8 @@ class Content extends Component{
                 </div>
                 <div class="div4">
                     <div>
-                        <img src="../images/icon/bullhorn.svg" alt="bullhorn"></img>
+                        {/* chi stacvum */}
+                        <img src={bullhorn} alt="bullhorn"/>
                         <hr></hr>
                         <h3>What is Famo.us?</h3>
                         <br></br>
@@ -34,7 +35,7 @@ class Content extends Component{
                             Canvas, or WebGL.</p>
                     </div>
                     <div>
-                        <img src="../images/icon/wrench.svg" alt="wrench"></img>
+                        <img src={require("../images/wrench.svg")} alt="wrench"></img>
                         <hr></hr>
                         <h3>Build your career</h3>
                         <br></br>
@@ -44,7 +45,7 @@ class Content extends Component{
                             for you.</p>
                     </div>
                     <div>
-                        <img src="../images/icon/university_hat.svg" alt="university_hat"></img>
+                        <img src={require("../images/")} alt="university_hat"></img>
                         <hr></hr>
                         <h3>Never stop learning</h3>
                         <br></br>
@@ -74,7 +75,7 @@ class Content extends Component{
                         <p>Everyone is welcome in our IRC channel. Whether you're just getting started 
                             or you have decades of development experience, our community is here for you.</p>
                     </div>
-                    <img src="../images/iphone-5.png" alt="iphone5"></img>
+                    <img src={require("../images/iphone-5.png")} alt="iphone5"></img>
                     <div>
                         <h4>You can learn at your own pace.</h4>
                         <br></br>
