@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
+// import React, {Component} from 'react';
 
-class Li extends Component{
+// class Li extends Component{
 
-    render(){
-        return(
-        <li>{this.props.name} {this.props.text} </li>
-        );
-    }
-}
+//     render(){
+//         return(
+//         <li>{this.props.name} {this.props.text} </li>
+//         );
+//     }
+// }
 
-export default Li;
+// export default Li;
