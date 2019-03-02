@@ -4,7 +4,7 @@ class Li extends Component{
 
     render(){
         return(
-        <li>{this.props.name} {this.props.text} </li>
+        <li>{this.props.name}</li>
         );
     }
 }
