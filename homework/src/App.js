@@ -5,7 +5,7 @@ import Project from "./components/index";
 class App extends Component {
   render() {
     return (
-        <Project/>
+        <Project />
     );
     }
 }
